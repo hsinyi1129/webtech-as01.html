@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:
+        "Lobster",
+        "Lucida Grande";
+    font-size: 90%;
+}
+
+
+#wrapper {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+#content,
+#nav,
+#supporting {
+    margin-top: 150px;
+}
+
+.container {
+    padding: 15px;
+}
+
+#banner {
+    width: 1300px;
+    background-color: rgb(74, 74, 221);
+    color: aliceblue;
+    height: 150px;
+    clear: both;
+    position: fixed;
+}
+
+#nav {
+    width: 300px;
+    background-color: khaki;
+    height: 525px;
+    position: fixed;
+}
+
+
+#content {
+    width: 800px;
+    background-color: rgb(195, 240, 174);
+    height: 700px;
+    float: left;
+    margin-left: 300px;
+}
+
+#supporting {
+    width: 200px;
+    height: 700px;
+    background-color: azure;
+    float: left;
+}
+
+#footer {
+    width: 1300px;
+    background-color: rgb(218, 246, 221) 
+    float: left;
+}
+
+
+
+
+#sparklight,
+#dataanalysis,
+#activities,
+#else {
+    padding-top: 150px;
+    margin-top: -150px;
+    /*為了在點擊超連結跳上去上方的字不要被banner擋住*/
+}
+
+
+
+
+#nav li {
+    display: block;
+    padding: 2px;
+    margin: 5px;
+}
+
+
+
+
+#nav li a {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: coral;
+    padding: 2px;
+    margin: 5px;
+
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    /* 編框陰影 */
+    /* rgba的a是透明度 */
+
+    font-weight: bold;
+    /* 字體 */
+
+    border: 1px solid white;
+    /* 外框 */
+
+    border-radius: 5px;
+    /* 圓角 */
+}
+
+#nav li a:hover {
+    /* 當滑鼠游標在上面時會呈現的樣貌 */
+    color: black;
+    background-color: rgba(225, 127, 80, 0.4);
+}
+
+
+
+
+#nav ul {
+    padding-left: 5px;
+}
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+div.gallery img {
+    width: 170px;
+    height:170px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.enjoy-css {
+    color: #777;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    border: none;
+    font: normal 40px/normal "Passero One", Helvetica, sans-serif;
+    color: #777;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 2px 0 rgba(255, 255, 255, 1), 0 3px 0 rgba(255, 255, 255, 1), 0 4px 0 rgba(255, 255, 255, 1), 0 5px 0 rgba(255, 255, 255, 1), 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 -5px 10px rgba(0, 0, 0, 0.247059), 0 -7px 10px rgba(0, 0, 0, 0.2), 0 -15px 20px rgba(0, 0, 0, 0.14902);
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
